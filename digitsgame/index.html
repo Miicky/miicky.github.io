@@ -13,7 +13,8 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
     <!-- Template Styles -->
     <link href="css/style.css" rel="stylesheet" media="screen">
-      </head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
   <body>
     
     <!-- NAVBAR
@@ -30,6 +31,7 @@
           
           <!--Replace text with your app name or logo image-->
           <a class="navbar-brand" href="#">DigitsGame</a>
+          <img src="img/logo-small.png" />
           
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -74,7 +76,6 @@
                 <div class="item">
                   <img src="img/screenshots/app-3.png" alt="App Screen 3">
                 </div>
-                
               </div>
             </div>
           </div>
@@ -107,7 +108,7 @@
     <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</h1>
+            <h1>Challenge others to play the numbers! Enter the top 5, come up with your strategy.</h1>
           </div>
         </div>
       </div>
@@ -127,8 +128,8 @@
               <div class="item active">
                   <div class="row">
                     <div class="col-sm-12 col-md-offset-1 col-md-6">
-                      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                      <h1><b>/start</b> - to start new game with show rules</h1>
+                      <p>If you wont just start new game - write /new</p>
                     </div>
                     <div class="col-sm-12 col-md-5">
                       <div class="app-screenshot">
@@ -140,8 +141,10 @@
               <div class="item">
                 <div class="row">
                   <div class="col-sm-12 col-md-offset-1 col-md-6">
-                    <h1>Sed do eiusmod tempor incididunt ut labore et dolore magna.</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <h1>Bot sets a four-digit number, the digits are not repeated</h1>
+                    <p>Write me a number and I will answer how many digits you guessed and how many of them is in the right place!
+                      Example. I set 2134. Your attempt 2918. You guessed two numbers (one and two!). The twin is the first of the numbers, and I put the unit in second place, and you are on the thirdthat you guessed two figures and one in the right place! Result 2:1.
+                      The number of attempts is endless!</p>
                   </div>
                   <div class="col-sm-12 col-md-5">
                     <div class="app-screenshot">
@@ -153,8 +156,8 @@
               <div class="item">
                 <div class="row">
                   <div class="col-sm-12 col-md-offset-1 col-md-6">
-                    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <h1>Challenge your friends! Get into top 5</h1>
+                    <p><b>/top</b> - The most dedicated playersю <b>/best</b> - the best players</p>
                   </div>
                   <div class="col-sm-12 col-md-5">
                     <div class="app-screenshot">
@@ -183,25 +186,21 @@
     <section class="features">
       <div class="container">
         <div class="row">
-        
           <div class="col-md-4">
             <div class="circle"><i class="icon-bookmark"></i></div>
-            <h2>Quick &amp; Easy Setup</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            <h2>Develop mathematical thinking</h2>
+            <p>This is the first version of the product! New features will appear soon.</p>
           </div>
-        
           <div class="col-md-4">
             <div class="circle"><i class="icon-keypad"></i></div>
-            <h2>Parallax Scrolling</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            <h2>Share with friends</h2>
+            <p>Send to your friends <a href="https://t.me/DigitGameBot" target="_blank">https://t.me/DigitGameBot</a></p>
           </div>
-         
           <div class="col-md-4">
             <div class="circle"><i class="icon-like"></i></div>
             <h2>Responsive Design</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            <p>Works on any device and browser. </p>
           </div>
-          
         </div>
       </div>
     </section>
@@ -214,11 +213,10 @@
           <div class="row">
             <div class="col-md-12">
               <h2>Connect with us</h2>
-               <a class="icon-facebook"></a>
-               <a class="icon-twitter"></a>
-               <a class="icon-google"></a>
-               <a class="icon-instagram"></a>
-               <a class="icon-pinterest"></a>
+               <a class="icon-facebook" href="https://www.facebook.com/digitsgame/" target="_blank"></a>
+               <a class="fa fa-telegram" href="https://t.me/miiicky" target="_blank"></a>
+               <a class="fa fa-github" href="https://github.com/Miicky/digitsgame" target="_blank"></a>
+               <a class="fa fa-envelope-o" href="mailto:micky.ukr@gmail.com" target="_blank"></a>
              </div>
           </div>
         </div>
@@ -231,20 +229,19 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>Avaialable now on the App Store</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-            <button type="button" class="app-store"></button>
+            <h1>Avaialable now on the Telegram</h1>
+            <p class="lead">A web version will be available soon </p>
+            
+            <!-- <button type="button" class="app-store"></button> -->
           </div>
           <div class="col-md-12">
             <hr />
             <ul>
-                    <li><a href="#link-here">Contact</a></li>
-                    <li><a href="#link-here">Twitter</a></li>
-                    <li><a href="#link-here">Press</a></li>
-                    <li><a href="#link-here">Support</a></li>
-                    <li><a href="#link-here">Developers</a></li>
-                    <li><a href="#link-here">Privacy</a></li>
-                  </ul>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Developers</a></li>
+              <li><a href="#">Privacy</a></li>
+            </ul>
           </div>
         </div>
       </div>
